@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8422F87D1F0360C400EB4A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F87C1F0360C400EB4A0C /* AppDelegate.swift */; };
+		8422F87F1F0360C400EB4A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F87E1F0360C400EB4A0C /* ViewController.swift */; };
+		8422F8821F0360C400EB4A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8801F0360C400EB4A0C /* Main.storyboard */; };
+		8422F8841F0360C400EB4A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8831F0360C400EB4A0C /* Assets.xcassets */; };
+		8422F8871F0360C400EB4A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8851F0360C400EB4A0C /* LaunchScreen.storyboard */; };
+		8422F8921F0360C400EB4A0C /* QualsonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8911F0360C400EB4A0C /* QualsonProjectTests.swift */; };
+		8422F89D1F0360C400EB4A0C /* QualsonProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F89C1F0360C400EB4A0C /* QualsonProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8422F88E1F0360C400EB4A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8422F8711F0360C400EB4A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8422F8781F0360C400EB4A0C;
+			remoteInfo = QualsonProject;
+		};
+		8422F8991F0360C400EB4A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8422F8711F0360C400EB4A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8422F8781F0360C400EB4A0C;
+			remoteInfo = QualsonProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8422F8791F0360C400EB4A0C /* QualsonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QualsonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422F87C1F0360C400EB4A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8422F87E1F0360C400EB4A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8422F8811F0360C400EB4A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8422F8831F0360C400EB4A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8422F8861F0360C400EB4A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8422F8881F0360C400EB4A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8422F88D1F0360C400EB4A0C /* QualsonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualsonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422F8911F0360C400EB4A0C /* QualsonProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualsonProjectTests.swift; sourceTree = "<group>"; };
+		8422F8931F0360C400EB4A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8422F8981F0360C400EB4A0C /* QualsonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualsonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422F89C1F0360C400EB4A0C /* QualsonProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualsonProjectUITests.swift; sourceTree = "<group>"; };
+		8422F89E1F0360C400EB4A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8422F8761F0360C400EB4A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F88A1F0360C400EB4A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F8951F0360C400EB4A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8422F8701F0360C400EB4A0C = {
+			isa = PBXGroup;
+			children = (
+				8422F87B1F0360C400EB4A0C /* QualsonProject */,
+				8422F8901F0360C400EB4A0C /* QualsonProjectTests */,
+				8422F89B1F0360C400EB4A0C /* QualsonProjectUITests */,
+				8422F87A1F0360C400EB4A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8422F87A1F0360C400EB4A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8422F8791F0360C400EB4A0C /* QualsonProject.app */,
+				8422F88D1F0360C400EB4A0C /* QualsonProjectTests.xctest */,
+				8422F8981F0360C400EB4A0C /* QualsonProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8422F87B1F0360C400EB4A0C /* QualsonProject */ = {
+			isa = PBXGroup;
+			children = (
+				8422F87C1F0360C400EB4A0C /* AppDelegate.swift */,
+				8422F87E1F0360C400EB4A0C /* ViewController.swift */,
+				8422F8801F0360C400EB4A0C /* Main.storyboard */,
+				8422F8831F0360C400EB4A0C /* Assets.xcassets */,
+				8422F8851F0360C400EB4A0C /* LaunchScreen.storyboard */,
+				8422F8881F0360C400EB4A0C /* Info.plist */,
+			);
+			path = QualsonProject;
+			sourceTree = "<group>";
+		};
+		8422F8901F0360C400EB4A0C /* QualsonProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				8422F8911F0360C400EB4A0C /* QualsonProjectTests.swift */,
+				8422F8931F0360C400EB4A0C /* Info.plist */,
+			);
+			path = QualsonProjectTests;
+			sourceTree = "<group>";
+		};
+		8422F89B1F0360C400EB4A0C /* QualsonProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8422F89C1F0360C400EB4A0C /* QualsonProjectUITests.swift */,
+				8422F89E1F0360C400EB4A0C /* Info.plist */,
+			);
+			path = QualsonProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8422F8781F0360C400EB4A0C /* QualsonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8422F8A11F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProject" */;
+			buildPhases = (
+				8422F8751F0360C400EB4A0C /* Sources */,
+				8422F8761F0360C400EB4A0C /* Frameworks */,
+				8422F8771F0360C400EB4A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QualsonProject;
+			productName = QualsonProject;
+			productReference = 8422F8791F0360C400EB4A0C /* QualsonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8422F88C1F0360C400EB4A0C /* QualsonProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8422F8A41F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectTests" */;
+			buildPhases = (
+				8422F8891F0360C400EB4A0C /* Sources */,
+				8422F88A1F0360C400EB4A0C /* Frameworks */,
+				8422F88B1F0360C400EB4A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8422F88F1F0360C400EB4A0C /* PBXTargetDependency */,
+			);
+			name = QualsonProjectTests;
+			productName = QualsonProjectTests;
+			productReference = 8422F88D1F0360C400EB4A0C /* QualsonProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8422F8971F0360C400EB4A0C /* QualsonProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8422F8A71F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectUITests" */;
+			buildPhases = (
+				8422F8941F0360C400EB4A0C /* Sources */,
+				8422F8951F0360C400EB4A0C /* Frameworks */,
+				8422F8961F0360C400EB4A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8422F89A1F0360C400EB4A0C /* PBXTargetDependency */,
+			);
+			name = QualsonProjectUITests;
+			productName = QualsonProjectUITests;
+			productReference = 8422F8981F0360C400EB4A0C /* QualsonProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8422F8711F0360C400EB4A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					8422F8781F0360C400EB4A0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6ZKXF235KG;
+						ProvisioningStyle = Automatic;
+					};
+					8422F88C1F0360C400EB4A0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6ZKXF235KG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8422F8781F0360C400EB4A0C;
+					};
+					8422F8971F0360C400EB4A0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6ZKXF235KG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8422F8781F0360C400EB4A0C;
+					};
+				};
+			};
+			buildConfigurationList = 8422F8741F0360C400EB4A0C /* Build configuration list for PBXProject "QualsonProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8422F8701F0360C400EB4A0C;
+			productRefGroup = 8422F87A1F0360C400EB4A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8422F8781F0360C400EB4A0C /* QualsonProject */,
+				8422F88C1F0360C400EB4A0C /* QualsonProjectTests */,
+				8422F8971F0360C400EB4A0C /* QualsonProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8422F8771F0360C400EB4A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422F8871F0360C400EB4A0C /* LaunchScreen.storyboard in Resources */,
+				8422F8841F0360C400EB4A0C /* Assets.xcassets in Resources */,
+				8422F8821F0360C400EB4A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F88B1F0360C400EB4A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F8961F0360C400EB4A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8422F8751F0360C400EB4A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422F87F1F0360C400EB4A0C /* ViewController.swift in Sources */,
+				8422F87D1F0360C400EB4A0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F8891F0360C400EB4A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422F8921F0360C400EB4A0C /* QualsonProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8422F8941F0360C400EB4A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422F89D1F0360C400EB4A0C /* QualsonProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8422F88F1F0360C400EB4A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8422F8781F0360C400EB4A0C /* QualsonProject */;
+			targetProxy = 8422F88E1F0360C400EB4A0C /* PBXContainerItemProxy */;
+		};
+		8422F89A1F0360C400EB4A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8422F8781F0360C400EB4A0C /* QualsonProject */;
+			targetProxy = 8422F8991F0360C400EB4A0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8422F8801F0360C400EB4A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8422F8811F0360C400EB4A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8422F8851F0360C400EB4A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8422F8861F0360C400EB4A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8422F89F1F0360C400EB4A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8422F8A01F0360C400EB4A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8422F8A21F0360C400EB4A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8422F8A31F0360C400EB4A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8422F8A51F0360C400EB4A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QualsonProject.app/QualsonProject";
+			};
+			name = Debug;
+		};
+		8422F8A61F0360C400EB4A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QualsonProject.app/QualsonProject";
+			};
+			name = Release;
+		};
+		8422F8A81F0360C400EB4A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QualsonProject;
+			};
+			name = Debug;
+		};
+		8422F8A91F0360C400EB4A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6ZKXF235KG;
+				INFOPLIST_FILE = QualsonProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QualsonProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8422F8741F0360C400EB4A0C /* Build configuration list for PBXProject "QualsonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422F89F1F0360C400EB4A0C /* Debug */,
+				8422F8A01F0360C400EB4A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8422F8A11F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422F8A21F0360C400EB4A0C /* Debug */,
+				8422F8A31F0360C400EB4A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8422F8A41F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422F8A51F0360C400EB4A0C /* Debug */,
+				8422F8A61F0360C400EB4A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8422F8A71F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422F8A81F0360C400EB4A0C /* Debug */,
+				8422F8A91F0360C400EB4A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8422F8711F0360C400EB4A0C /* Project object */;
+}
