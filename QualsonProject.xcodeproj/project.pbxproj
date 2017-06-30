@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498CBF2C9E1F97E2CD8502BD /* Pods_QualsonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1897BECF83A9FACB7370B6 /* Pods_QualsonProject.framework */; };
+		841199731F04FB170093CFC4 /* ImageGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841199721F04FB170093CFC4 /* ImageGuideVC.swift */; };
+		841199751F050A2C0093CFC4 /* ImageGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841199741F050A2C0093CFC4 /* ImageGuideCell.swift */; };
+		841199771F050A3F0093CFC4 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841199761F050A3F0093CFC4 /* ImageCell.swift */; };
+		841199791F0530250093CFC4 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841199781F0530250093CFC4 /* UIColor+Ex.swift */; };
+		8411997B1F05310A0093CFC4 /* ImageDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411997A1F05310A0093CFC4 /* ImageDetail.storyboard */; };
+		8411997F1F054A460093CFC4 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411997E1F054A460093CFC4 /* UIView+Ex.swift */; };
+		841199811F056FD20093CFC4 /* ImageSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841199801F056FD20093CFC4 /* ImageSearchVC.swift */; };
 		8422F87D1F0360C400EB4A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F87C1F0360C400EB4A0C /* AppDelegate.swift */; };
-		8422F87F1F0360C400EB4A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F87E1F0360C400EB4A0C /* ViewController.swift */; };
 		8422F8821F0360C400EB4A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8801F0360C400EB4A0C /* Main.storyboard */; };
 		8422F8841F0360C400EB4A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8831F0360C400EB4A0C /* Assets.xcassets */; };
 		8422F8871F0360C400EB4A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422F8851F0360C400EB4A0C /* LaunchScreen.storyboard */; };
 		8422F8921F0360C400EB4A0C /* QualsonProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8911F0360C400EB4A0C /* QualsonProjectTests.swift */; };
 		8422F89D1F0360C400EB4A0C /* QualsonProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F89C1F0360C400EB4A0C /* QualsonProjectUITests.swift */; };
+		8422F8AD1F03643E00EB4A0C /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8AC1F03643E00EB4A0C /* ApiManager.swift */; };
+		8422F8B21F03BE0800EB4A0C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422F8B11F03BE0800EB4A0C /* Alamofire.framework */; };
+		8422F8B41F03BE0C00EB4A0C /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422F8B31F03BE0C00EB4A0C /* Moya.framework */; };
+		8422F8B61F047FFF00EB4A0C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422F8B51F047FFF00EB4A0C /* Kingfisher.framework */; };
+		8422F8B81F04808900EB4A0C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8B71F04808900EB4A0C /* App.swift */; };
+		8422F8BB1F0488C500EB4A0C /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8BA1F0488C500EB4A0C /* String+Ex.swift */; };
+		8422F8BD1F049F7C00EB4A0C /* ImageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8BC1F049F7C00EB4A0C /* ImageModels.swift */; };
+		8422F8C21F04ECCA00EB4A0C /* UIImage+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F8C11F04ECCA00EB4A0C /* UIImage+Ex.swift */; };
+		84CC144D1F058A0500D13D1E /* ImageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC144C1F058A0500D13D1E /* ImageLayout.swift */; };
+		84CC144F1F058C2D00D13D1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC144E1F058C2D00D13D1E /* AVFoundation.framework */; };
+		84CC14541F05F42F00D13D1E /* ImageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC14531F05F42F00D13D1E /* ImageDetailVC.swift */; };
+		84CC14561F05F44B00D13D1E /* ImageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC14551F05F44B00D13D1E /* ImageDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D1897BECF83A9FACB7370B6 /* Pods_QualsonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QualsonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB880BBCA0E847D87754247 /* Pods-QualsonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QualsonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-QualsonProject/Pods-QualsonProject.release.xcconfig"; sourceTree = "<group>"; };
+		841199721F04FB170093CFC4 /* ImageGuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGuideVC.swift; sourceTree = "<group>"; };
+		841199741F050A2C0093CFC4 /* ImageGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGuideCell.swift; sourceTree = "<group>"; };
+		841199761F050A3F0093CFC4 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		841199781F0530250093CFC4 /* UIColor+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
+		8411997A1F05310A0093CFC4 /* ImageDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageDetail.storyboard; sourceTree = "<group>"; };
+		8411997E1F054A460093CFC4 /* UIView+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
+		841199801F056FD20093CFC4 /* ImageSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchVC.swift; sourceTree = "<group>"; };
 		8422F8791F0360C400EB4A0C /* QualsonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QualsonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8422F87C1F0360C400EB4A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8422F87E1F0360C400EB4A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8422F87C1F0360C400EB4A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = QualsonProject/AppDelegate.swift; sourceTree = "<group>"; };
 		8422F8811F0360C400EB4A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8422F8831F0360C400EB4A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8422F8861F0360C400EB4A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +74,19 @@
 		8422F8981F0360C400EB4A0C /* QualsonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualsonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8422F89C1F0360C400EB4A0C /* QualsonProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualsonProjectUITests.swift; sourceTree = "<group>"; };
 		8422F89E1F0360C400EB4A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8422F8AC1F03643E00EB4A0C /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiManager.swift; path = QualsonProject/ApiManager.swift; sourceTree = "<group>"; };
+		8422F8B11F03BE0800EB4A0C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/QualsonProject-fzxgwuydtpgbgefuhqgperjqdbnn/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		8422F8B31F03BE0C00EB4A0C /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "../../Library/Developer/Xcode/DerivedData/QualsonProject-fzxgwuydtpgbgefuhqgperjqdbnn/Build/Products/Debug-iphonesimulator/Moya/Moya.framework"; sourceTree = "<group>"; };
+		8422F8B51F047FFF00EB4A0C /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/QualsonProject-fzxgwuydtpgbgefuhqgperjqdbnn/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		8422F8B71F04808900EB4A0C /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = QualsonProject/App.swift; sourceTree = "<group>"; };
+		8422F8BA1F0488C500EB4A0C /* String+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		8422F8BC1F049F7C00EB4A0C /* ImageModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModels.swift; sourceTree = "<group>"; };
+		8422F8C11F04ECCA00EB4A0C /* UIImage+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Ex.swift"; sourceTree = "<group>"; };
+		84CC144C1F058A0500D13D1E /* ImageLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLayout.swift; sourceTree = "<group>"; };
+		84CC144E1F058C2D00D13D1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84CC14531F05F42F00D13D1E /* ImageDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailVC.swift; sourceTree = "<group>"; };
+		84CC14551F05F44B00D13D1E /* ImageDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailCell.swift; sourceTree = "<group>"; };
+		E36ECF01D457A2E8AED31D89 /* Pods-QualsonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QualsonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QualsonProject/Pods-QualsonProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CC144F1F058C2D00D13D1E /* AVFoundation.framework in Frameworks */,
+				8422F8B61F047FFF00EB4A0C /* Kingfisher.framework in Frameworks */,
+				8422F8B41F03BE0C00EB4A0C /* Moya.framework in Frameworks */,
+				8422F8B21F03BE0800EB4A0C /* Alamofire.framework in Frameworks */,
+				498CBF2C9E1F97E2CD8502BD /* Pods_QualsonProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +119,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BE430F43D915EE1072D2134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E36ECF01D457A2E8AED31D89 /* Pods-QualsonProject.debug.xcconfig */,
+				7BB880BBCA0E847D87754247 /* Pods-QualsonProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8411996F1F04EE690093CFC4 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				84CC144C1F058A0500D13D1E /* ImageLayout.swift */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
 		8422F8701F0360C400EB4A0C = {
 			isa = PBXGroup;
 			children = (
+				84CC14521F05F29E00D13D1E /* Common */,
+				8411996F1F04EE690093CFC4 /* Layouts */,
+				8422F8AE1F03649400EB4A0C /* Models */,
+				8422F8C31F04ED3000EB4A0C /* Views */,
+				8422F8C41F04ED4200EB4A0C /* Controllers */,
 				8422F87B1F0360C400EB4A0C /* QualsonProject */,
 				8422F8901F0360C400EB4A0C /* QualsonProjectTests */,
 				8422F89B1F0360C400EB4A0C /* QualsonProjectUITests */,
 				8422F87A1F0360C400EB4A0C /* Products */,
+				3BE430F43D915EE1072D2134 /* Pods */,
+				C7788EC2F9BC53FF170B57B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +166,6 @@
 		8422F87B1F0360C400EB4A0C /* QualsonProject */ = {
 			isa = PBXGroup;
 			children = (
-				8422F87C1F0360C400EB4A0C /* AppDelegate.swift */,
-				8422F87E1F0360C400EB4A0C /* ViewController.swift */,
 				8422F8801F0360C400EB4A0C /* Main.storyboard */,
 				8422F8831F0360C400EB4A0C /* Assets.xcassets */,
 				8422F8851F0360C400EB4A0C /* LaunchScreen.storyboard */,
@@ -125,6 +192,71 @@
 			path = QualsonProjectUITests;
 			sourceTree = "<group>";
 		};
+		8422F8AE1F03649400EB4A0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8422F8BC1F049F7C00EB4A0C /* ImageModels.swift */,
+			);
+			name = Models;
+			path = QualsonProject;
+			sourceTree = "<group>";
+		};
+		8422F8B91F0488BC00EB4A0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8422F8C11F04ECCA00EB4A0C /* UIImage+Ex.swift */,
+				8422F8BA1F0488C500EB4A0C /* String+Ex.swift */,
+				841199781F0530250093CFC4 /* UIColor+Ex.swift */,
+				8411997E1F054A460093CFC4 /* UIView+Ex.swift */,
+			);
+			name = Extensions;
+			path = QualsonProject;
+			sourceTree = "<group>";
+		};
+		8422F8C31F04ED3000EB4A0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841199761F050A3F0093CFC4 /* ImageCell.swift */,
+				841199741F050A2C0093CFC4 /* ImageGuideCell.swift */,
+				84CC14551F05F44B00D13D1E /* ImageDetailCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8422F8C41F04ED4200EB4A0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CC14531F05F42F00D13D1E /* ImageDetailVC.swift */,
+				841199801F056FD20093CFC4 /* ImageSearchVC.swift */,
+				841199721F04FB170093CFC4 /* ImageGuideVC.swift */,
+				8411997A1F05310A0093CFC4 /* ImageDetail.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		84CC14521F05F29E00D13D1E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8422F8B71F04808900EB4A0C /* App.swift */,
+				8422F8AC1F03643E00EB4A0C /* ApiManager.swift */,
+				8422F87C1F0360C400EB4A0C /* AppDelegate.swift */,
+				8422F8B91F0488BC00EB4A0C /* Extensions */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C7788EC2F9BC53FF170B57B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CC144E1F058C2D00D13D1E /* AVFoundation.framework */,
+				8422F8B51F047FFF00EB4A0C /* Kingfisher.framework */,
+				8422F8B31F03BE0C00EB4A0C /* Moya.framework */,
+				8422F8B11F03BE0800EB4A0C /* Alamofire.framework */,
+				6D1897BECF83A9FACB7370B6 /* Pods_QualsonProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8422F8A11F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProject" */;
 			buildPhases = (
+				59714B307733C6B151858446 /* [CP] Check Pods Manifest.lock */,
 				8422F8751F0360C400EB4A0C /* Sources */,
 				8422F8761F0360C400EB4A0C /* Frameworks */,
 				8422F8771F0360C400EB4A0C /* Resources */,
+				B36EEEC71AE476B748DE7C05 /* [CP] Embed Pods Frameworks */,
+				B1514E515111C80370CA37C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +373,7 @@
 				8422F8871F0360C400EB4A0C /* LaunchScreen.storyboard in Resources */,
 				8422F8841F0360C400EB4A0C /* Assets.xcassets in Resources */,
 				8422F8821F0360C400EB4A0C /* Main.storyboard in Resources */,
+				8411997B1F05310A0093CFC4 /* ImageDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +393,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59714B307733C6B151858446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QualsonProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1514E515111C80370CA37C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QualsonProject/Pods-QualsonProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36EEEC71AE476B748DE7C05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QualsonProject/Pods-QualsonProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QualsonProject/Pods-QualsonProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8422F8751F0360C400EB4A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8422F87F1F0360C400EB4A0C /* ViewController.swift in Sources */,
+				841199811F056FD20093CFC4 /* ImageSearchVC.swift in Sources */,
+				8422F8AD1F03643E00EB4A0C /* ApiManager.swift in Sources */,
+				841199751F050A2C0093CFC4 /* ImageGuideCell.swift in Sources */,
+				8411997F1F054A460093CFC4 /* UIView+Ex.swift in Sources */,
+				8422F8BB1F0488C500EB4A0C /* String+Ex.swift in Sources */,
+				84CC14561F05F44B00D13D1E /* ImageDetailCell.swift in Sources */,
+				8422F8C21F04ECCA00EB4A0C /* UIImage+Ex.swift in Sources */,
+				8422F8BD1F049F7C00EB4A0C /* ImageModels.swift in Sources */,
+				84CC144D1F058A0500D13D1E /* ImageLayout.swift in Sources */,
+				8422F8B81F04808900EB4A0C /* App.swift in Sources */,
+				84CC14541F05F42F00D13D1E /* ImageDetailVC.swift in Sources */,
+				841199731F04FB170093CFC4 /* ImageGuideVC.swift in Sources */,
 				8422F87D1F0360C400EB4A0C /* AppDelegate.swift in Sources */,
+				841199771F050A3F0093CFC4 /* ImageCell.swift in Sources */,
+				841199791F0530250093CFC4 /* UIColor+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +626,14 @@
 		};
 		8422F8A21F0360C400EB4A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36ECF01D457A2E8AED31D89 /* Pods-QualsonProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZKXF235KG;
 				INFOPLIST_FILE = QualsonProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qualson.QualsonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,12 +641,14 @@
 		};
 		8422F8A31F0360C400EB4A0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB880BBCA0E847D87754247 /* Pods-QualsonProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZKXF235KG;
 				INFOPLIST_FILE = QualsonProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giho.ThirdProjectFintech.QualsonProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qualson.QualsonProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +731,7 @@
 				8422F8A31F0360C400EB4A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8422F8A41F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +740,7 @@
 				8422F8A61F0360C400EB4A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8422F8A71F0360C400EB4A0C /* Build configuration list for PBXNativeTarget "QualsonProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +749,7 @@
 				8422F8A91F0360C400EB4A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
