@@ -13,7 +13,7 @@
         <!--Image GuideVC-->
         <scene sceneID="VHB-vC-Y19">
             <objects>
-                <viewController storyboardIdentifier="ImageDetailVC" id="RDt-Rj-NTN" customClass="ImageGuideVC" customModule="QualsonProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageGuideVC" id="RDt-Rj-NTN" customClass="ImageGuideVC" customModule="QualsonProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ocg-CS-MI2"/>
                         <viewControllerLayoutGuide type="bottom" id="8kR-q6-Psn"/>
