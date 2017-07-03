@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zhu-Ml-cmK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zhu-Ml-cmK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -64,7 +64,6 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="BP2-4u-Xl4" firstAttribute="leading" secondItem="tco-nH-Ucf" secondAttribute="leading" id="06i-9H-3Yq"/>
-                                            <constraint firstAttribute="bottom" secondItem="BP2-4u-Xl4" secondAttribute="bottom" id="U5b-zZ-LYm"/>
                                             <constraint firstItem="BP2-4u-Xl4" firstAttribute="top" secondItem="tco-nH-Ucf" secondAttribute="top" id="Usv-9E-mMx"/>
                                             <constraint firstAttribute="trailing" secondItem="BP2-4u-Xl4" secondAttribute="trailing" id="x2S-4d-XDi"/>
                                         </constraints>
